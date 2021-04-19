@@ -1,0 +1,213 @@
+/*Padrão*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 90%;
+  background-color: rgb(63, 196, 245);
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+div#pag-total {
+  width: 960px;
+  height: 700px;
+  margin: auto;
+ 
+}
+
+main {
+  box-shadow: 10px 10px 10px #333333;
+  background-color: white;
+  border-radius: 20px;
+}
+/*Padrão*/
+
+/*Inicio header - nav*/
+nav ul {
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-image: linear-gradient(to top, #333333 70%, #c9c4c4 );
+  
+}
+nav ul li {
+  display: inline;
+  float: center;
+  
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  
+  margin: 25px;
+}
+nav ul li a:hover {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* Fim header*/
+
+/* Bloco separador*/
+div#separador {
+  background-color: white;
+  height: 20px;
+}
+/* Bloco separador*/
+
+/*Inicio Primeiro bloco*/
+
+div#olhar-geral {
+  display: inline-flex;
+  background-color: #e6e6e6;
+  height: 190px;
+  padding: 15px;
+}
+div#texto {
+  background-color: #e6e6e6;
+  width: 710px;
+  margin: 10px;
+}
+div#texto h1 {
+  color: rgb(10, 202, 10);
+  font-variant: small-caps;
+  margin: 10px 15px;
+  
+}
+div#btn {
+  padding: 5px;
+  text-align: center;
+  margin: 0px auto;
+}
+div#btn a {
+  background-image: url("/projeto/imagens/large_button.gif");
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+div#btn a:hover {
+  color: black;  
+  font-weight: bold;
+}
+/*Fim Primeiro bloco*/
+
+/*Inicio Segundo bloco*/
+div#separador-conteudo {
+  background-color: #333333;
+  height: 20px;
+  background-image: linear-gradient(to top, #333333 70%, #c9c4c4 );
+}
+/*Fim Segundo bloco*/
+
+/*Inicio terceiro bloco*/
+
+div#tres-blocos {
+  background-color: white;
+  display: inline-flex;
+  margin-bottom: 25px;
+  
+}
+
+div.format {
+  width: 290px;
+  height: 400px;
+  float: left;
+  padding-left: 25px;
+}
+div.format p {
+  padding: 5px;
+  text-align: left;
+ 
+}
+
+div.format h2 {
+  color: rgb(63, 196, 245);
+  font-variant: small-caps;
+ 
+}
+div.format h3 {
+  color: rgb(24, 192, 24);
+}
+
+div#tres-blocos strong {
+  color: black;
+}
+
+div#news {
+  background: url('/projeto/imagens/bg_gradient.gif') no-repeat left center;
+}
+
+div#about h3 a {
+  text-decoration: none;
+  color: rgb(24, 192, 24);
+}
+div#news p a {
+  color: black;
+  text-decoration: none;
+}
+
+div#services {
+
+  background: url('/projeto/imagens/bg_gradient.gif') no-repeat left center;
+}
+
+ul#services-list {
+  color: black;
+  margin-left: 20px;
+}
+
+ul#services-list li p a {
+  color: rgb(24, 192, 24);
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+
+}
+
+div#btn2 a{
+  background-image: url("/projeto/imagens/little_button.gif");
+  font-variant: small-caps;
+  color: white;
+  padding: 2px 2px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+
+div#btn2 a:hover {
+  color: black; 
+  font-weight: bold;
+}
+
+/*Fim terceiro bloco*/
+
+/*Inicio footer*/
+
+footer#rodape {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
+footer#rodape a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+/*Fim footer*/

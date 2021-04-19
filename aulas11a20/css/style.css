@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    box-sizing:border-box;   
+    font-size: 30px;      
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;   
+}
+div#relative {
+    position: relative;
+    margin: auto;
+    height: 1800px;
+    border: 10px solid rgb(164, 114, 230);
+    background-image: linear-gradient(to top, rgb(221, 63, 174) 25%, rgb(61, 147, 228), rgb(68, 204, 152));
+}
+div#absolute1 {
+    position: absolute;
+    width: 200px;      
+    top: 0;
+    text-align: left;
+}
+div#absolute2 {      
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 50px;           
+    right: 0;
+    text-align: right;
+}
+div#absolute3 {      
+    position: absolute;
+    width: 200px;          
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+div#absolute4 {      
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    text-align: left;
+}
+div#absolute5 {      
+    position: absolute;
+    width: 200px;
+    right: 0;
+    bottom: 0;      
+    text-align: right;   
+}
+div#fixed { 
+    position: fixed;
+    width: 200px;            
+    left: 50%;
+    bottom: 15px;         
+    text-align: center;
+    border: 5px dashed rgb(11, 224, 75); 
+
+}

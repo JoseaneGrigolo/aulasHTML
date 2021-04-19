@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;  
+}
+
+body {
+  width: 1200px;
+  background-image: linear-gradient(to right, rgb(226, 51, 133), rgb(60, 202, 60), rgb(250, 157, 81));
+  height: 700px;
+  margin: auto;
+
+}
+
+/*inicio  nav*/
+nav ul {
+  /*com text-align fica a direita em ordem*/
+  float: right;
+  list-style: none;
+  color: white;
+  width: 100%;
+  font-size: 25px;  
+}
+
+nav ul li {
+   display: inline;
+   /*Não precisa deste se usar text-align a direita*/
+   float: right;  
+   border-radius: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 20px; 
+}
+
+nav ul li:hover {
+  box-shadow: 20px 20px 20px rgb(226, 51, 133);
+  text-decoration: none;
+}
+
+/* fim nav*/
+
+/*corpo*/
+.semClear {
+  float: left;
+  padding: 25px;
+}
+
+.comClear {
+  float: left;
+  clear: both;
+  padding: 25px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(83, 5, 94);
+    text-decoration: underline;
+  }
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    color: black; 
+}
+
+div#scroll {
+    border: 10px double;
+    overflow: auto;    
+    height: 370px;
+    border-radius: 30px;
+    color: rgb(226, 51, 133);
+    box-shadow: 20px 20px 20px rgb(250, 157, 81);
+}
+
+img {
+  box-shadow: 20px 20px 20px rgb(250, 157, 81);
+  border-radius: 30px;
+}
+
+/*corpo*/
