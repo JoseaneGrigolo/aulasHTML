@@ -1,4 +1,4 @@
 # aulasHTML + CSS
 SoulCodeAcademy
 Aulas HTML - algumas das principais.
-20 aulas realizadas e um projeto.
+Aulas 1 a 20 realizadas e 2 projeto.
